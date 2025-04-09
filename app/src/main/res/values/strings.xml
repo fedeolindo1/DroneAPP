@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">DroneAutoFly</string>
+    
+    <!-- Connection Status -->
+    <string name="status_disconnected">Disconnected</string>
+    <string name="status_connecting">Connecting…</string>
+    <string name="status_connected">Connected</string>
+    
+    <!-- Mission Status -->
+    <string name="mission_idle">Ready</string>
+    <string name="mission_takeoff">Taking off…</string>
+    <string name="mission_scanning">Scanning for papers…</string>
+    <string name="mission_approaching">Approaching target…</string>
+    <string name="mission_reading">Reading barcode…</string>
+    <string name="mission_returning">Returning to home…</string>
+    <string name="mission_landing">Landing…</string>
+    <string name="mission_completed">Mission completed</string>
+    <string name="mission_error">Error: %1$s</string>
+    
+    <!-- Buttons -->
+    <string name="btn_start">Start Mission</string>
+    <string name="btn_pause">Pause</string>
+    <string name="btn_resume">Resume</string>
+    <string name="btn_stop">Stop Mission</string>
+    <string name="btn_take_off">Take Off</string>
+    <string name="btn_land">Land</string>
+    <string name="btn_return_home">Return Home</string>
+    
+    <!-- Alerts -->
+    <string name="alert_stop_title">Stop Mission</string>
+    <string name="alert_stop_message">Are you sure you want to stop the mission? The drone will return to home.</string>
+    <string name="alert_complete_title">Mission Complete</string>
+    <string name="alert_complete_message">The mission has been completed. Scanned %1$d barcodes.</string>
+    <string name="alert_yes">Yes</string>
+    <string name="alert_no">No</string>
+    <string name="alert_ok">OK</string>
+    
+    <!-- Errors -->
+    <string name="error_connection">Connection error: %1$s</string>
+    <string name="error_takeoff">Take off error: %1$s</string>
+    <string name="error_sdk_registration">SDK registration error: %1$s</string>
+    <string name="error_no_aircraft">No aircraft connected</string>
+    <string name="error_camera">Camera error: %1$s</string>
+    <string name="error_permissions">Required permissions not granted</string>
+</resources>
