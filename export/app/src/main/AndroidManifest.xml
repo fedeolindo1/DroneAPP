@@ -45,7 +45,7 @@
         
         <meta-data
             android:name="com.dji.sdk.API_KEY"
-            android:value="${DJI_SDK_API_KEY}" />
+            android:value="b4b60f2edd1d459483d786ac" />
 
         <activity
             android:name=".MainActivity"
@@ -67,18 +67,6 @@
             android:name=".ui.AIControlActivity"
             android:screenOrientation="portrait"
             android:label="Controle por IA"
-            android:exported="false" />
-            
-        <activity
-            android:name=".ui.FlightPathActivity"
-            android:screenOrientation="portrait"
-            android:label="Caminho de Voo"
-            android:exported="false" />
-            
-        <activity
-            android:name=".ui.BarcodeAnalyticsActivity"
-            android:screenOrientation="portrait"
-            android:label="Análise de Códigos"
             android:exported="false" />
         
     </application>

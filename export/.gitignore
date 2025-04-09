@@ -1,0 +1,39 @@
+# Arquivos de build
+app/build/
+build/
+out/
+*.apk
+*.aab
+*.aar
+
+# Arquivos gerados
+*.iml
+.gradle
+local.properties
+.idea/
+.DS_Store
+/captures
+.externalNativeBuild
+.cxx
+*.log
+
+# Arquivos específicos do Android Studio
+/.idea
+.idea/
+*.iws
+*.iml
+*.ipr
+.gradle/
+build/
+
+# Chaves e arquivos de configuração sensíveis
+*.jks
+*.keystore
+google-services.json
+firebase_credentials.json
+
+# Arquivos específicos do Replit
+.replit
+replit.nix
+.ccls-cache/
+.config/

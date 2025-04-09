@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Cores corporativas da Scania (baseadas no sistema de design Tegel) -->
+    <color name="scania_blue">#0077C8</color>
+    <color name="scania_blue_dark">#003F5C</color>
+    <color name="scania_blue_light">#77B8E5</color>
+    
+    <color name="scania_red">#D6001C</color>
+    <color name="scania_grey">#53565A</color>
+    <color name="scania_grey_light">#EDEDEE</color>
+    <color name="scania_grey_50">#FAFAFA</color>
+    <color name="scania_grey_100">#F5F5F5</color>
+    <color name="scania_grey_200">#EEEEEE</color>
+    
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    
+    <!-- Cores para o tema da aplicação -->
+    <color name="colorPrimary">@color/scania_blue</color>
+    <color name="colorPrimaryDark">@color/scania_blue_dark</color>
+    <color name="colorAccent">@color/scania_red</color>
+    <color name="colorBackground">@color/scania_grey_50</color>
+    <color name="colorSurface">@color/white</color>
+    <color name="colorOnPrimary">@color/white</color>
+    <color name="colorOnSurface">@color/scania_grey</color>
+</resources>
